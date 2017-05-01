@@ -168,7 +168,7 @@ try:
 except KeyError:
     FTP_PASS = ""
     FTP_DIR = ""
-FTP_STORAGE_LOCATION = 'ftp://jorrit:' + FTP_PASS + '@webserverathome.tk:21/'+ FTP_DIR +'/'
+FTP_STORAGE_LOCATION = 'ftp://jorrit:' + FTP_PASS + '@webserverathome.tk:21'+ FTP_DIR +'/'
 STATICFILES_LOCATION = FTP_STORAGE_LOCATION + '/static/'
 MEDIAFILES_LOCATION = FTP_STORAGE_LOCATION + '/media/'
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
